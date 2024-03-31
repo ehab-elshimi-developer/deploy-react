@@ -29,7 +29,7 @@ class App extends Component {
             : "bg-red-950 text-stone-900"
         } `}
       >
-        <Header mode={this.state.mode} />
+        <Header mode={this.state.mode} products={this.state.products} />
         <Cart
           changeMode={this.changeMode}
           mode={this.state.mode}
