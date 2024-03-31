@@ -9,7 +9,7 @@ class Cart extends Component {
           <button className="btn btn-neutral">empty</button>
           <button className="btn btn-primary">reset</button>
           <button className="btn btn-secondary" onClick={this.props.changeMode}>
-            Change Mode Backgroud
+            Change Mode
           </button>
         </div>
         <div className="mt-[1em] text-3xl flex flex-col justify-center  gap-y-5 ">
