@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-      "homepage": "https://ehab-elshimi-developer.github.io/deploy-react",
+      "homepage": "http://ehab-elshimi-developer.github.io/deploy-react",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
