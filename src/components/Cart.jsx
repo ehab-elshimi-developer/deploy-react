@@ -5,11 +5,11 @@ class Cart extends Component {
   render() {
     return (
       <div className="w-3/4 mx-auto mt-[5em] rounded-xl">
-        <div className="bg-zinc-900 flex justify-evenly items-center  text-white h-20 rounded-2xl">
+        <div className="flex items-center h-20 text-white bg-zinc-900 justify-evenly rounded-2xl">
           <button className="btn btn-neutral">empty</button>
           <button className="btn btn-primary">reset</button>
           <button className="btn btn-secondary" onClick={this.props.changeMode}>
-            Change Mode
+            Change Mode Backgroud
           </button>
         </div>
         <div className="mt-[1em] text-3xl flex flex-col justify-center  gap-y-5 ">
